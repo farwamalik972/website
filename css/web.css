@@ -1,9 +1,12 @@
 
-.body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 .clr{
+   
     background: transparent;
     position: absolute;
     top: 20px;
@@ -763,7 +766,7 @@
     content: "";
     background-image: url(../web-imges/about.jpg);
     width: 100%;
-    height: 600px;
+    height: 650px;
     filter: brightness(0.8);
     background-size: cover;
     background-repeat: no-repeat;
@@ -814,7 +817,7 @@
    position: absolute;
    width: 45%;
    height: 750px;
-   margin-top: 600px
+   margin-top: 650px
 }
 .sub-about{
     font-size: 20px;
@@ -853,7 +856,7 @@
 
 }
 .part-3-about{
-    margin-top: 170px;
+    margin-top: 220px;
     background: #d4eaf5;
     height: 350px;
 }
@@ -934,8 +937,114 @@
 .comma-A{
     background-color: white;
     margin-top: -80px;
-    
     border-radius: 50px;
     padding: 3px;
     width: 40px;
 }
+              /* ....................... */
+.contact{
+    width: 100%;
+}
+.map{
+    filter: brightness(0.6);
+}
+.map-card{
+    background-color: white;
+     width: 25%;
+     padding: 12px;
+     position: absolute;
+     margin-top: -441px;
+     margin-left: 488px;
+     border-radius: 5px;
+
+}
+.map-head{
+    color: gray;
+    font-size: 17px;
+}
+.map-para{
+    font-size: 16px;
+    color: gray;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+.map-btn{
+    border: 1px solid #dadce0;
+    color: #1a73e8;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 24px;
+    margin-left: 50px;
+}
+.contact-section{
+    position: relative;
+ }
+ .contact-section::before{
+     content: "";
+     background-image: url(../web-imges/about.jpg);
+     width: 100%;
+     height: 650px;
+     filter: brightness(0.8);
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
+     z-index: -1;
+ 
+ }
+ .contact-top{
+     /* position: absolute; */
+     padding-top: 388px;
+     margin-left: 617px;
+     height: 650px;
+    
+ }
+ .top-img-A{
+     margin-left: -5px;
+     margin-top: -3px;
+ }
+ .hom-link-A{
+     text-decoration: none;
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+ }
+ .hom-link-1-A{
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+ }
+ .top-img-1-A{
+     margin-left: -8px;
+     margin-top: -5px;
+ }
+ 
+ .about-head-A{
+     font-weight: 400;
+     color: #fff;
+     font-size: 70px;
+     margin-left: -95px;
+ }
+ .contact-card{
+    width: 100%;
+    height: 1000px;
+    background-color: #f7f7f7!important;
+ }
+ .wrap{
+    background-color: #fff;
+    height: 700px
+ }
+ .cont-1{
+    color: #000;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 38px 80px;
+ }
+ .cont-para{
+    margin-left: 73px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    margin-top: -30px;
+ }

@@ -2,8 +2,6 @@
 .body{
     margin: 0;
     padding: 0;
-   
-
 }
 .clr{
     background: transparent;
@@ -14,22 +12,20 @@
     z-index: 3;
     padding: 0;
 }
-
+.active{
+    color: white;
+}
 .navbar-brand{
     color: black;
     padding: 0;
     font-size: 30px;
     z-index: 0;
 }
-.active{
-    color: white;
-
-}
 .nav-link{
     font-size: 18px;
     line-height: 1.8;
     font-weight: 400;
-    color: gray;
+    color: #473a3a;
 }
 .nav-item{
     padding-right: 30.5px;
@@ -758,4 +754,188 @@
     color: gray;
     text-align: center;
     padding: 45px;
+}
+                   /* ABOUT.CSS */
+.about-section{
+   position: relative;
+}
+.about-section::before{
+    content: "";
+    background-image: url(../web-imges/about.jpg);
+    width: 100%;
+    height: 600px;
+    filter: brightness(0.8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+
+}
+.about-top{
+    position: absolute;
+    margin-top: 388px;
+    margin-left: 617px;
+   
+}
+.top-img{
+    margin-left: -5px;
+    margin-top: -3px;
+}
+.hom-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.hom-link:hover{
+    color: orange;
+}
+.hom-link-1{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.top-img-1{
+    margin-left: -8px;
+    margin-top: -5px;
+}
+
+.about-head{
+    font-weight: 400;
+    color: #fff;
+    font-size: 70px;
+    margin-left: -95px;
+}
+
+.sec-about{
+   background-image: url(../web-imges/about-sec.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+   width: 45%;
+   height: 750px;
+   margin-top: 600px
+}
+.sub-about{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 5px;
+    color: rgba(0,0,0,.3);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 700px;
+    margin-left: 75px;
+}
+.sub-about-1{
+    margin-top: 15px;
+    margin-left: 75px;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #052c43;
+}
+.sub-para-1{
+    margin-left: 75px;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray;
+}
+.icon-btn-about{
+    margin-left: 75px;
+    background: #cf7500;
+    border: 1px solid #cf7500;
+    color: #fff;
+    padding: 12px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+.part-3-about{
+    margin-top: 170px;
+    background: #d4eaf5;
+    height: 350px;
+}
+.cstmer{
+    padding-top: 100px;
+}
+.cstmer-card{
+    background-color: white;
+    margin: 80px 15px;
+    width: 25%;
+    padding: 30px;
+}
+.client-1{
+        width: 30%;
+        border-radius: 50%;
+        margin-left: -200px;
+        margin-top: -98px;
+}
+ .client-info{
+        width: 97%;
+        margin-top: 20px;
+       color: gray;
+}
+
+.client-name{
+        font-weight: 500;
+         font-size: 20px;
+         color:#cf7500;
+         margin-left: 95px;
+    
+ }
+.client-work{
+        margin-top: -12px;
+        margin-left: 95px;
+       
+    }
+
+.client-indicator li{
+    
+        background-color: #e6e6e6;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+    }
+    .active{
+        background: #f7f7f7;
+    }
+    .cstmer-card-A{
+        background-color: #cf7500;
+        margin: 80px 15px;
+        width: 25%;
+        padding: 30px;
+    }
+    .client-name-A{
+        font-weight: 500;
+         font-size: 20px;
+         color: white;
+         margin-left: 95px;
+    
+ }
+ .client-info-A{
+    width: 97%;
+    margin-top: 20px;
+   color: white;
+}
+.client-work-A{
+    margin-top: -12px;
+    margin-left: 95px;
+   
+}
+.comma{
+    background-color: #cf7500;
+    margin-top: -80px;
+    border-radius: 50px;
+    padding: 3px;
+    width: 40px;
+}
+.comma-A{
+    background-color: white;
+    margin-top: -80px;
+    
+    border-radius: 50px;
+    padding: 3px;
+    width: 40px;
 }

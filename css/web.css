@@ -678,19 +678,24 @@
     background: #d4eaf5;
 }
 .footer-head{
-    margin-top: 40px;
+    margin-top: 125px;
     font-size: 20px;
     font-weight: 500;
+    margin-left: 20px;
 }
 .footer-para{
     font-size: 16px;
     line-height: 1.8;
     font-weight: 400;
     color: gray;
+    margin-top: 70px;
 }
 .list-none{
     list-style: none;
-    padding: 6px 6px;
+    padding: 18px 6px;
+}
+.styled-A{
+    margin-top: 65px;
 }
 .social-icon{
     margin-left: -50px;
@@ -702,8 +707,12 @@
     padding: 10px;
 }
 .list-2{
-    margin-bottom: 10px;
-    margin-top: -34px;
+    margin-bottom: 30px;
+    margin-top: -33px;
+    color: gray;
+}
+.list-2:hover{
+    color: blue;
 }
 .arrow{
     margin-left: -50px;
@@ -711,8 +720,13 @@
 }
 .block-21{
     display: block;
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.date-1{
+     margin-top: 23px;
 }
 .icon-A{
     margin-left: 4px;
@@ -722,6 +736,26 @@
     position: absolute;
 }
 .shop{
-    font-size: 12px;
-    
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;   
+}
+.shop:hover{
+    color: blue;
+}
+.ad-1{
+    margin-left: -35px;
+}
+.list-F{
+    margin-top: 35px;
+}
+.end{
+    height: 135px;
+   background-color:  #abd6eb;
+}
+.end-1{
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    padding: 45px;
 }
